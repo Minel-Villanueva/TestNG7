@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login Suite">
+  <test thread-count="5" name="Login Test">
+    <classes>
+      <class name="com.neotech.lesson02.EnableAndDisable"/>
+      <class name="com.neotech.lesson02.Homework1"/>
+      <class name="com.neotech.lesson02.SoftAssertDemo"/>
+      <class name="com.neotech.lesson02.AssertDemo"/>
+      <class name="com.neotech.lesson02.DependsDemo"/>
+      <class name="com.neotech.lesson02.PriorityDemo"/>
+    </classes>
+  </test> <!-- Login Test -->
+</suite> <!-- Login Suite -->
